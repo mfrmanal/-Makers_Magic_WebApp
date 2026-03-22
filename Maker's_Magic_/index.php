@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Maker's Magic</title> 
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   
+
+  
+   <!----box icons link-->
+   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+   <!---remix icons link-->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+   <!---google fonts link-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+ </head>
+ <body>
+      
+    <!--- header --->
+    <header>
+      <a href="#" class="logo">
+         <img src="./images/img/logo.png" class="logo">
+      </a>
+
+               <ul class="navlist"> 
+                <li><a href="./index.php">Home</a></li>
+                <li><a href="./shop.php">Shop</a></li>
+                <li><a href="./gifting.php">Gifting</a></li>
+                <li><a href="./blog.php">Blog</a></li>
+                <li><a href="./contact.php">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <a href="./auth/login.php"><i class="ri-user-fill"></i></a>
+                <a href="#"><i class="ri-heart-2-fill" id="heart-icon"></i></a>
+                <div id="heart-container"></div>
+                <a href="./cart.php"><i class="ri-shopping-cart-2-fill"></i></a>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+         
+
+   </header>
+      <!--- home --->
+      <section class="home">
+         <div class="home-text">
+           <h5>Welcome to the Magical World!</h5>
+           <h1> Where Imagination Weaves Wonders</h1>
+           <p>Creating smiles and spreading happiness for generations!</p>
+           <a href="./shop.php" class="btn">
+           <i class="ri-store-fill"></i>
+           Shop now
+           </a>
+         </div>
+         <div class="home-img">
+            <img src="./images/home vector.png">
+         </div>
+      </section> 
+
+<!---new products --->
+<section class="new-products">
+   <div class="center-in">
+   <img src="./images/img/center.png">
+   <h2>NEW ARRIVALS</h2>
+   <p>Take a look at the latest masterpieces to arrive on our virtual shelves</p>
+   
+   </div>
+
+    <section class="crafts">
+       <div class="crafts-content">
+       <div class="crafts-box">
+       <img src="images/img/s1.png">
+          <h6> 5 pcs</h6>
+          <h3> kintsugi Dinnerware</h3>
+          <a href="#" class="crafts-btn">
+              <i class="ri-store-fill"></i>
+             Shop now
+          </a> 
+        </div>
+   <div class="crafts-box">
+      <img src="images/img/s2.png" >
+      <h6> Hand woven</h6>
+      <h3> Men’s Muffler</h3>
+      <a href="#" class="crafts-btn">
+      <i class="ri-store-fill"></i>
+        Shop now
+      </a> 
+  </div>
+
+  <div class="crafts-box">
+   <img src="images/img/s3.png" >
+   <h6>Blooming Beauty </h6>
+   <h3> Marble Candle Stand</h3>
+   <a href="#" class="crafts-btn">
+   <i class="ri-store-fill"></i>
+     Shop now
+   </a> 
+</div>
+</div>
+</section>
+    <!--- cta --->
+<section class="cta">
+   <div class="cta-content">
+      <h4>Sign up now & get 10% off</h4>
+      <p>offer valid for a limited time only!! Get yours before we run out!</p>
+        <div class="c-search">
+            <form action="">
+          <input type="email" placeholder="Enter your email..."
+           required>
+         <input type="submit" value="submit" class="btn">
+            </form>
+         </div>
+    </div>
+</section>
+   <!---trending products   --->
+   <section class="trending">
+      <div class="center-in">
+      <img src="images/img/center.png">
+      <h2>Trending Products</h2>
+      <p>Unleash the trendsetter within – discover our latest handcrafted wonders that are turning heads and stealing hearts!</p>
+      </div>
+
+      <div class="trending-content">
+      <div class="box">
+         <img src="images/img/t1.png">
+         <h5>Royal Reflection Wall Mirror</h5>
+         <h6>$139.83</h6>
+      </div>
+
+         <div class="box">
+            <img src="images/img/t2.png">
+            <h5>Wooden jewel box<br> with number lock</h5>
+            <h6>$92.74</h6>
+         </div>
+
+            <div class="box">
+               <img src="images/img/t3.png">
+               <h5>Multi use cutlery stand</h5>
+               <h6>$86.50</h6>
+            </div>
+
+               <div class="box">
+                  <img src="images/img/t4.png">
+                  <h5>Gold Beaten Cuff Bracelet
+                  </h5>
+                  <h6>$123.39</h6>
+               </div>
+  
+         </div>
+      </section>
+
+   <!---About us-->
+     <!--- footer --->
+
+     <section class="footer">
+         
+          <div class="footer-box">
+            <img src="./images/img/logo.png" >
+            <h3>Maker's Magic</h3>
+            <p>At Maker’s Magic, we believe that creativity is a superpower. <br>Our passion lies in crafting unique, one-of-a-kind pieces that blend artistry, love, and a touch of enchantment.<br> Whether it’s hand-painted ceramics, intricately woven textiles, or whimsical wooden sculptures, each creation carries a piece of our heart.<br>Explore our collection, and let the spirit of Maker’s Magic inspire you.</p>
+            <div class="icons">
+              <a href="https://facebook.com"><i class="ri-facebook-fill"></i></a>
+              <a href="https://instagram.com"><i class="ri-instagram-fill"></i></a>
+              <a href="https://x.com"><i class="ri-twitter-x-line"></i>
+              <a href="https://syoutube.com"><i class="ri-youtube-fill"></i></a>
+            </div>
+           </div>
+           <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="#">Product Guides</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Delivery Policy</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Feedback</a>
+            </div>
+
+            <div class="footer-box">
+               <h3>Company</h3>
+               <a href="./contact.php">About us</a>
+               <a href="./shop.php">Our Gallery</a>
+               <a href="../auth/login.php">Our Shop</a>
+               <a href="./contact.php">Contact us</a>
+               <a href="./blog.php">Our Blog</a>
+               </div>
+
+               <div class="footer-box">
+                  <h3>Help</h3>
+                  <a href="https://instragram.com">Instagram</a>
+                  <a href="https://facebook.com">Facebook</a>
+                  <a href="https://x.com">X-Twitter</a>
+                  <a href="#">Phone:</a>
+                  <a href="#">017581388 Amelia</a>
+               
+               </div>
+      </section>
+
+        <!--- copyright --->
+<div class="copyright">
+<div class="end-text">
+<p>Copyright @2026 Maker's Magic | All Rights Reserved </p>
+<p>site designed by AR</p>
+</div>
+<div class="end-img">
+<img src="images/img/payment.png">
+</div>
+</div>
+
+<a href="#" class="top"><i class="ri-arrow-up-line"></i></a>
+
+   <!--- custom js file link --->
+   <script src="js/script.js"></script>
+
+ </body>
+</html>
